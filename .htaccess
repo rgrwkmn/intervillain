@@ -1,0 +1,8 @@
+AddHandler server-parsed .html
+AddHandler server-parsed .shtml
+AddHandler server-parsed .htm
+
+AddType text/html .html
+AddOutputFilter INCLUDES .html
+
+Options +FollowSymLinks +Includes
